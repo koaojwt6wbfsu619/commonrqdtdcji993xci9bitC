@@ -9,4 +9,4 @@ export DBUS_SESSION_BUS_ADDRESS=/dev/null
 Xvfb $DISPLAY -screen 1 1280x800x8 -nolisten tcp &
 
 
-python /app/main.py -v -cv 126
+python /app/main.py 
