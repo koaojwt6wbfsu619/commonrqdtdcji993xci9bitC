@@ -15,10 +15,6 @@ Xvfb $DISPLAY -screen 1 1280x800x8 -nolisten tcp &
 python /app/main.py -cv 126
 
 
-rm -fr sessions
-
-rm -fr logs
-
 sleep 30
 
 python /app/main.py -cv 126
