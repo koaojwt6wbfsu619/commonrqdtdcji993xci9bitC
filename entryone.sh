@@ -1,3 +1,7 @@
+sudo apt-get --only-upgrade install google-chrome-stable -y
+
+sleep 10
+
 rm -fr sessions
 
 rm -fr logs
