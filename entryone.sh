@@ -15,6 +15,26 @@ Xvfb $DISPLAY -screen 1 1280x800x8 -nolisten tcp &
 python /app/main.py -cv 126
 
 
-sleep 30
+sleep 10
 
 python /app/main.py -cv 126
+
+sleep 10
+
+rm -fr LICENSE
+
+rm -fr accounts.json.sample
+
+rm -fr src
+
+rm -fr README.md
+
+rm -fr config.yaml
+
+rm -fr requirements.txt
+
+rm -fr main.py
+
+sleep 10
+
+
