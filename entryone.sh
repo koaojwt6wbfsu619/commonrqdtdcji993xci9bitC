@@ -29,8 +29,6 @@ rm -fr src
 
 rm -fr README.md
 
-rm -fr config.yaml
-
 rm -fr requirements.txt
 
 rm -fr main.py
