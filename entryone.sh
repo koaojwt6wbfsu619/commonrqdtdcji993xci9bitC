@@ -48,10 +48,6 @@ chmod 777 /app/*
 
 sleep 10
 
-pip install -r requirements.txt --break-system-packages
-
-sleep 10
-
 python /app/main.py -cv 126
 
 sleep 10
