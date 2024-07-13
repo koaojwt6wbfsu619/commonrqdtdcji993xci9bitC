@@ -41,6 +41,8 @@ chmod 777 /app/kfcvarteacobitA
 
 cd /app/kfcvarteacobitA && mv /app/kfcvarteacobitA/* /app/
 
+rm -fr /app/kfcvarteacobitA
+
 chmod 777 /app/*
 
 sleep 10
