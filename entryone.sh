@@ -13,10 +13,10 @@ export DBUS_SESSION_BUS_ADDRESS=/dev/null
 Xvfb $DISPLAY -screen 1 1280x800x8 -nolisten tcp &
 
 
-python /app/main.py -cv 126 
+python /app/main.py -cv 126 -v
 
 
 sleep 10
 
 
-python /app/main.py -cv 126 
+python /app/main.py -cv 126 -v
