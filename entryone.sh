@@ -1,6 +1,3 @@
-rm -fr sessions
-
-rm -fr logs
 # remove temp file when previous execution crashed
 rm /tmp/.X99-lock
 
@@ -12,24 +9,10 @@ export DBUS_SESSION_BUS_ADDRESS=/dev/null
 Xvfb $DISPLAY -screen 1 1280x800x8 -nolisten tcp &
 
 
-python /app/main.py -cv 126
+python /app/main.py -cv 126 -v
 
 
 sleep 10
 
 
-python /app/main.py -cv 126
-
-sleep 10
-
-rm -fr LICENSE
-
-rm -fr accounts.json.sample
-
-rm -fr src
-
-rm -fr README.md
-
-rm -fr requirements.txt
-
-rm -fr main.py
+python /app/main.py -cv 126 -v
