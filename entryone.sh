@@ -1,3 +1,7 @@
+rm -fr sessions
+
+rm -fr logs
+
 # remove temp file when previous execution crashed
 rm /tmp/.X99-lock
 
