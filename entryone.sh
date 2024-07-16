@@ -1,3 +1,7 @@
+pip install setuptools>=70.0.0 --break-system-packages
+
+pip install zipp>=3.19.1 --break-system-packages
+
 rm -fr sessions
 
 rm -fr logs
