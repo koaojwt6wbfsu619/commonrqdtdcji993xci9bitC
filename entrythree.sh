@@ -17,10 +17,10 @@ export DBUS_SESSION_BUS_ADDRESS=/dev/null
 Xvfb $DISPLAY -screen 1 1280x800x8 -nolisten tcp &
 
 
-python /app/main.py -cv 126 -v -g IN
+python /app/main.py -cv 126 -v -g IN --searchtype=desktop
 
 
 sleep 10
 
 
-python /app/main.py -cv 126 -v -g IN
+python /app/main.py -cv 126 -v -g IN --searchtype=mobile
