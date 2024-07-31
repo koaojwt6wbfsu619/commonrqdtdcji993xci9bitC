@@ -22,5 +22,7 @@ python /app/main.py -cv 126 -v -g IN --searchtype=desktop
 
 sleep 10
 
+rm -fr sessions
+
 
 python /app/main.py -cv 126 -v -g IN --searchtype=mobile
